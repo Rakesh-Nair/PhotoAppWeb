@@ -1,4 +1,4 @@
-package org.spring.microservices.response;
+package com.appsdeveloperblog.ws.api.albums.response;
 
 public class AlbumRest {
 	private String userId;
@@ -6,15 +6,6 @@ public class AlbumRest {
 	private String albumTitle;
 	private String albumDescription;
 	private String albumUrl;
-
-	public AlbumRest(String userId, String albumId, String albumTitle, String albumDescription, String albumUrl) {
-		super();
-		this.userId = userId;
-		this.albumId = albumId;
-		this.albumTitle = albumTitle;
-		this.albumDescription = albumDescription;
-		this.albumUrl = albumUrl;
-	}
 
 	/**
 	 * @return the userId
